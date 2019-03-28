@@ -1,0 +1,7 @@
+     Dictionary<string, string> ICU_996 = new Dictionary<string, string>();
+
+        if (User.Company.Type == "996") {
+            var company = User.Company;
+            ICU_996.Add(company.Name, company.Content);
+        }
+        // tell your User??
